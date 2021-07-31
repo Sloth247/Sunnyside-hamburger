@@ -346,8 +346,11 @@ picture {
   background-color: rgba(250, 212, 0, 0.418);
 }
 
-.main__transform--description--btn::after:hover {
+.main__transform--description--btn:hover::after {
   background-color: hsl(51, 100%, 49%);
+}
+.main__standout--description--btn:hover::after {
+  background-color: hsl(7, 99%, 70%);
 }
 
 .mobile {
