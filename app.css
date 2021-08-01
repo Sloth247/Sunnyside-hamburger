@@ -92,6 +92,7 @@ picture {
   width: 2.5rem;
   position: absolute;
   left: 50%;
+  bottom: 40%;
   transform: translateX(-50%);
   text-align: center;
   margin-top: 8rem;
@@ -492,7 +493,7 @@ picture {
     background-position: center;
     background-repeat: no-repeat;
     padding: 2rem;
-    padding-bottom: 110%;
+    padding-bottom: 85%;
   }
   .header__logo {
     width: 9rem;
@@ -503,6 +504,9 @@ picture {
   }
   .header__title {
     font-size: 2.5rem;
+  }
+  .header__arrow {
+    bottom: 25%;
   }
 
   .section-title {
